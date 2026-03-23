@@ -1,61 +1,70 @@
-리액트란?
-사용자 인터페이스를 만들기 위한 javascript라이브러리이다.
-사용자와 웹 사이트의 상호작용을 돕는 인터페이스를 만들기 위한 자바스크립트 기능 모음집
-SPA 개발을 위한 프레임워크
-'컴포넌트'라고 물리는 작고 고립된 코드 파편을 이용하여 복잡한 UI를 구성
+# Getting Started with Create React App
 
-브라우저 로딩 과정
-ㅡ 피싱
-ㅡ 스타일
-ㅡ 레이아웃
-ㅡ 페인트
-ㅡ 합성
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-개발 환경
-Node.js, 웹 서버 개발 플랫폼, 윈도우/macOS, 필수
-VScode, 소스 코드 편집기, 윈도우/macOS, 권장
-scoop, 윈도우용 설치 프로그램, 윈도우, 권장
-Homebrew, macOS용 설치 프로그램, macOS, 권장
-touch, 파일 관리 유틸리티, 윈도우, 선택
-Chorme, 웹 브라우저, 윈도우/macOS, 권장
+## Available Scripts
 
--APP.js-
-function MyButton() {
-return (
-<button>
-I'm a button
-</button>
-);
-}
-export default function MyApp() {
-return (
-<div>
-<h1>Welcome to my app</h1>
-<MyButton />
-</div>
-);
-}
+In the project directory, you can run:
 
-Package manager
-Linux에서 사용하던 커맨드라인 패키지 매니저인 apt(apt-get), yum, Mac에서 사용하던 Homebrew 처럼 패키지설치/업데이트/삭제 등에 사용
-Chocolatey
-• Chocolatey (약칭 Choco) : 윈도우에서 사용할 수 있는 커맨드 라인 패키지 매니저
-Scoop
-• 윈도우의 패키지 매니저
-• 윈도우용 CLI (command-line installer)로 윈도우에서 좀 더 쾌적한 설치를 위해 개발
-Winget
-• Windows 10 및 Windows 11 컴퓨터에서 애플리케이션을 검색, 설치, 업그레이드, 제거 및 구성할 수 있음
-WingetUI
-• GUI를 제공하면서 winget, chocolatey, scoop 3개의 윈도우 패키지 관리자를 한번에 사용할 수 있는 오픈
-소스 앱
+### `npm start`
 
-Bable이 하는일 
-Transform syntax(구문 변환)
-bable-polyfill을 통해서 폴리필 기능 지원
-JSX and React
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-폴더 구조
-ㅡnode_modules
-ㅡpublic
-ㅡsrc
-ㅡgitignore
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
